@@ -3,16 +3,20 @@ import styled from "styled-components";
 import Project from "./Project";
 
 const Section = styled.section`
-  background-color: #fff;
-  padding: 5rem 1rem;
+    background-color: #fff;
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 중앙 정렬 */
 `;
+
 const SectionHeading = styled.h2`
-  font-size: 2rem;
-  color: #343a40;
-  margin-bottom: 2rem;
-  text-align: center;
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 2rem;
+    text-align: center;
 `;
-const SideProject =() => {
+const SideProject = () => {
     const projectList = [
         {
             period: '2022.01 - 2022.08',
@@ -21,7 +25,8 @@ const SideProject =() => {
             role: '단독개발, 서버 개발 및 배포/ 서버 구축/ 서버 운영',
             techStack: 'Nodejs, Javascript, MariaDB',
             keyTech: '파일 등록 및 다운로드, 설문지폼 만들기 및 작성, 공지사항 등록, FCM(Firebase Cloud Message) 알림 서비스, 대학교내부서 페이지, 프로그램 신청',
-            imageUrl: process.env.PUBLIC_URL + '/notice.png'
+            imageUrl: process.env.PUBLIC_URL + '/notice.png',
+            videoUrl: process.env.PUBLIC_URL + '/notice.MP4'
         },
         {
             period: '2022.01 - 2022.05',
@@ -63,6 +68,7 @@ const SideProject =() => {
                     techStack={project.techStack}
                     keyTech={project.keyTech}
                     imageUrl={project.imageUrl}
+                    videoUrl={project.videoUrl}
                 />
             ))}
         </Section>
