@@ -44,7 +44,7 @@ const Projects = () => {
             period: '2023.06 - 2023.08',
             title: '정자분석기 농도 알고리즘 고도화',
             company: '주식회사 인트인',
-            role: '팀 개발(2명, 기여도 60%), 코드 리뷰 / 알고리즘 고도화',
+            role: '팀 개발(2명, 기여도 70%), 코드 리뷰 / 알고리즘 고도화',
             techStack: 'C++, OpenCV',
             keyTech: '이미지 전처리, 이미지 수치화, 코드 리뷰'
         },
@@ -60,7 +60,7 @@ const Projects = () => {
             period: '2023.01 - 2023.09',
             title: '정자분석기 2.0',
             company: '주식회사 인트인',
-            role: '팀 개발(2명, 기여도 70%), 서버 개발 및 배포/ 서버 구축 및 운영',
+            role: '팀 개발(2명, 기여도 60%), 서버 개발 및 배포/ 서버 구축 및 운영',
             techStack: 'Spring Boot, Java, JPA, QueryDSL, JWT, MariaDB',
             keyTech: 'JWT 암호화 토큰 관리, 기존 사용자 마이그레이션, 신규 요구사항 적용'
         },
