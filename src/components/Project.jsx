@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import React, { useState, useRef } from "react";
 
-
 const ProjectContainer = styled.div`
     background-color: #fff;
     padding: 1rem;
@@ -81,7 +80,7 @@ const Modal = styled.div`
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     align-items: center;
     justify-content: center;
     z-index: 1000;
@@ -90,9 +89,9 @@ const Modal = styled.div`
 const ModalContent = styled.div`
     background: #fff;
     border-radius: 8px;
-    width: 90%;
-    max-width: 500px;
-    max-height: 80vh;
+    width: 95%;
+    max-width: 90vw;
+    max-height: 90vh;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     position: relative;
     display: flex;
