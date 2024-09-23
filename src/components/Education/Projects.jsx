@@ -17,14 +17,6 @@ const SectionHeading = styled.h2`
 const Projects = () => {
     const projectList = [
         {
-            period: '2024.08 - In Progress',
-            title: '통합서비스관리자',
-            company: '주식회사 인트인',
-            role: '단독개발, 서버 개발 및 유지보수 / 서버 배포 / 서버 구축 및 운영',
-            techStack: 'Spring Boot, Java, JPA, MyBatis, MariaDB',
-            keyTech: '서비스 대시보드, RESTful API 통신, 신규요구사항 기능 추가'
-        },
-        {
             period: '2024.07 - In Progress',
             title: 'Multi-DTx 3차년도',
             company: '주식회사 인트인',
@@ -33,7 +25,15 @@ const Projects = () => {
             keyTech: 'RESTful API 통신, 신규요구사항 기능 추가'
         },
         {
-            period: '2024.02 - In Progress',
+            period: '2024.08 - 2024.09',
+            title: '통합서비스관리자',
+            company: '주식회사 인트인',
+            role: '단독개발, 서버 개발 및 유지보수 / 서버 배포 / 서버 구축 및 운영',
+            techStack: 'Spring Boot, Java, JPA, MyBatis, MariaDB',
+            keyTech: '서비스 대시보드, RESTful API 통신, 신규요구사항 기능 추가'
+        },
+        {
+            period: '2024.02 - 2024.09',
             title: 'SBOM 시스템 구축',
             company: '주식회사 인트인',
             role: '단독개발, 웹 개발 및 유지보수 / 서버 개발 및 유지보수 / 웹&서버 배포 / 서버 구축 및 운영',
