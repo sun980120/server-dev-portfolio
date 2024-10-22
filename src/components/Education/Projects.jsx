@@ -25,6 +25,14 @@ const Projects = () => {
             keyTech: 'RESTful API 통신, 신규요구사항 기능 추가'
         },
         {
+            period: '2024.10 - 2024.10',
+            title: 'Sperm Test 2',
+            company: '주식회사 인트인',
+            role: '단독개발, 서버 개발 및 유지보수 / 서버 배포 / 서버 구축 및 운영',
+            techStack: 'Spring Boot, Java, JPA, MyBatis, QueryDSL, MariaDB, AWS EC2, AWS RDS / QA 서버 자동화 빌드',
+            keyTech: 'RESTful API 통신 및 문서 작성, 버그 수정, 신규 요구사항 기능 추가, QA 서버 자동화 빌드'
+        },
+        {
             period: '2024.08 - 2024.09',
             title: '통합서비스관리자',
             company: '주식회사 인트인',
@@ -46,7 +54,7 @@ const Projects = () => {
             company: '주식회사 인트인',
             role: '단독개발, 서버 개발 및 유지보수 / 서버 배포/ AWS 서버 운영',
             techStack: 'Spring Boot, Java, JPA, QueryDSL, Apple-OAuth, MariaDB',
-            keyTech: 'RESTful API 통신 및 문서 작성, 버그 수정, 신규요구사항 기능 추가'
+            keyTech: 'RESTful API 통신 및 문서 작성, 버그 수정, 신규 요구사항 기능 추가'
         },
         {
             period: '2023.11 - 2023.11',
