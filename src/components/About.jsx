@@ -111,7 +111,7 @@ const About = () => {
                         <InfoItem><span>Email:</span> woosung9801@naver.com</InfoItem>
                         <InfoItem><span>Phone:</span> +82-10-4143-1174</InfoItem>
                     </InfoList>
-                    <ResumeLink href="https://drive.google.com/file/d/1QO4kl1rvtFKHnBivVmeAsrDqw89V5EKF/view?usp=sharing" target="_blank">이력서 다운받기</ResumeLink>
+                    {/*<ResumeLink href="https://drive.google.com/file/d/1QO4kl1rvtFKHnBivVmeAsrDqw89V5EKF/view?usp=sharing" target="_blank">이력서 다운받기</ResumeLink>*/}
                 </InfoContainer>
             </AboutContent>
         </AboutContainer>

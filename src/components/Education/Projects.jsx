@@ -17,6 +17,22 @@ const SectionHeading = styled.h2`
 const Projects = () => {
     const projectList = [
         {
+            period: '2025.01 - In Progress',
+            title: 'GitLab',
+            company: '주식회사 인트인',
+            role: '서버 구축 및 운영',
+            techStack: 'Git, GitLab-ee',
+            keyTech: 'GitLab 서비스 구축'
+        },
+        {
+            period: '2024.12 - 2025.01',
+            title: 'AWS 서비스 관리',
+            company: '주식회사 인트인',
+            role: '서버 구축 및 운영',
+            techStack: 'AWS RDS, AWS EC2',
+            keyTech: 'AWS 비용 최적화, AWS RDS 서비스 종료'
+        },
+        {
             period: '2024.07 - In Progress',
             title: 'Multi-DTx 3차년도',
             company: '주식회사 인트인',
