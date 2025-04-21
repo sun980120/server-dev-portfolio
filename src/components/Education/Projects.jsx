@@ -21,8 +21,8 @@ const Projects = () => {
             title: 'Multi-DTx 4차년도',
             company: '주식회사 인트인',
             role: '단독개발, 서버 개발 및 유지보수 / 자동화 배포(Api) / 서버 구축 및 운영',
-            techStack: 'Spring Boot, Java, JPA, MyBatis, MariaDB',
-            keyTech: 'RESTful API 통신, 신규요구사항 기능 추가'
+            techStack: 'Spring Boot, Java, JPA, MyBatis, MariaDB, Jenkins',
+            keyTech: 'RESTful API 통신, 신규요구사항 기능 추가, 자동화 배포'
         },
         {
             period: '2025.01 - in Progress',
@@ -30,7 +30,7 @@ const Projects = () => {
             company: '주식회사 인트인',
             role: '단독 개발, 서버 개발 및 유지보수 / 자동화 배포(App, Web, Api)/ 서버 구축 및 운영',
             techStack: 'Spring Boot, Java, JPA, MongoDB, Jenkins',
-            keyTech: 'RESTful API 통신, 신규요구사항 기능 추가, CI/CD'
+            keyTech: 'RESTful API 통신, 신규요구사항 기능 추가, 자동화 배포'
         },
         {
             period: '2025.01 - 2025.01',
