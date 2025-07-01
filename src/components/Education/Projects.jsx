@@ -17,6 +17,14 @@ const SectionHeading = styled.h2`
 const Projects = () => {
     const projectList = [
         {
+            period: '2025.06 - in Progress',
+            title: 'Hagobogo Pro',
+            company: '주식회사 인트인',
+            role: '단독개발, 서버 개발 및 유지보수 / 자동화 배포(Api, App) / 서버 구축 및 운영',
+            techStack: 'Spring Boot, Java, JPA, MyBatis, QueryDSL, MariaDB, Jenkins',
+            keyTech: 'RESTful API 통신, 신규요구사항 기능 추가, 자동화 배포'
+        },
+        {
             period: '2025.02 - in Progress',
             title: 'Multi-DTx 4차년도',
             company: '주식회사 인트인',
@@ -25,7 +33,7 @@ const Projects = () => {
             keyTech: 'RESTful API 통신, 신규요구사항 기능 추가, 자동화 배포'
         },
         {
-            period: '2025.01 - in Progress',
+            period: '2025.01 - 2025.06',
             title: 'Hagobogo',
             company: '주식회사 인트인',
             role: '단독 개발, 서버 개발 및 유지보수 / 자동화 배포(App, Web, Api)/ 서버 구축 및 운영',
